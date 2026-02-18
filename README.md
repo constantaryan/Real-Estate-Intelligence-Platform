@@ -183,9 +183,6 @@ real_estate_virtual
 ├── pipeline.pkl
 ├── README.md
 └── requirements.txt
-
-
-
 ---
 
 ## 🔮 Future Enhancements
