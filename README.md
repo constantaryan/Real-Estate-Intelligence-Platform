@@ -164,7 +164,6 @@ streamlit run app.py
 
 ## 📁 Project Structure
 
-real_estate_virtual
 ├── datasets
 │  ├── cosine_sim1.pkl
 │  ├── cosine_sim2.pkl
@@ -183,6 +182,7 @@ real_estate_virtual
 ├── pipeline.pkl
 ├── README.md
 └── requirements.txt
+
 ---
 
 ## 🔮 Future Enhancements
