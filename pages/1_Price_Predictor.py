@@ -2,13 +2,17 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
+from pathlib import Path
 
 st.set_page_config(page_title="Price Prediction Module ")
 
-with  open(r'../df.pkl', 'rb') as file:
+file_path_df = Path(__file__).resolve().parent.parent / "df.pkl"
+file_path_pipeline = Path(__file__).resolve().parent.parent / "pipeline.pkl"
+
+with  open(file_path_df, 'rb') as file:
     df = pickle.load(file)
 
-with  open(r'../pipeline.pkl', 'rb') as file:
+with  open(file_path_pipeline, 'rb') as file:
     pipeline = pickle.load(file)
 
 

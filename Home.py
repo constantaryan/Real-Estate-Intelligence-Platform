@@ -4,39 +4,44 @@ st.set_page_config(
     page_title="Home",
     page_icon = '🏠'
 )
-
-# Main Title
-st.title("🏠 Real Estate Insights Platform")
-st.subheader("Explore, Analyze, Predict, and Recommend — all in one place.")
-
-
-# Introduction Section
-# st.markdown("""
-# ---
-# """)
-st.subheader("""
-1. This platform helps you analyze housing data, predict property prices, and recommend nearby apartments based on your preferences.
-""")
-st.subheader("2. Use the **navigation panel on the left** to switch between different modules.")
 st.markdown("""
- --- 
- """)
+<h1 style='text-align: center;'>🏠 Real Estate Insights Platform</h1>
 
-# App Overview / Modules Section
-st.header("📊 App Overview / Modules")
+<p style='text-align:center; font-size:18px; color:gray;'>
+Explore, Analyze, Predict, and Recommend — all in one place
+</p>
 
-st.markdown("""
-#### 1️⃣ Price Prediction  
-Predict property prices based on features such as **area**, **location**, and **number of BedRooms**.  
-Experiment with different values and instantly see the **new predicted price changes**.
+<hr style="margin-top:20px;margin-bottom:30px;">
 
-#### 2️⃣ Analysis Dashboard  
-Explore the Data with **interactive graphs and charts**.  
-Visualize **price distributions**, **Common Amenities**, and **location patterns** to uncover hidden insights.
+<p style='font-size:17px;'>
+This platform helps you <b>analyze housing data</b>, <b>predict property prices</b>, 
+and <b>recommend nearby apartments</b> based on your preferences.
+</p>
 
-#### 3️⃣ Recommendations Module  
-Find **similar or nearby apartments** using **Society data**.  
+<p style='font-size:17px;'>
+Use the <b>navigation panel on the left</b> to switch between different modules.
+</p>
+
+<br>
+
+<h2>📊 App Overview</h2>
+
+<h3>1️⃣ Price Prediction</h3>
+<p style='font-size:16px;'>
+Predict property prices based on features such as <b>area</b>, <b>location</b>, 
+and <b>number of bedrooms</b>.  
+Experiment with different values and instantly see the updated predicted price.
+</p>
+
+<h3>2️⃣ Analysis Dashboard</h3>
+<p style='font-size:16px;'>
+Explore the dataset using interactive graphs and charts.  
+Visualize price distributions, common amenities, and location patterns to uncover insights.
+</p>
+
+<h3>3️⃣ Recommendations Module</h3>
+<p style='font-size:16px;'>
+Find similar or nearby apartments using <b>Society data</b>.  
 Discover listings close to your chosen property.
-
----
-""")
+</p>
+""", unsafe_allow_html=True)
