@@ -164,18 +164,19 @@ streamlit run app.py
 
 ## 📁 Project Structure
 
-real_estate_virtual
+```
+.
 ├── datasets
-│  ├── cosine_sim1.pkl
-│  ├── cosine_sim2.pkl
-│  ├── cosine_sim3.pkl
-│  ├── data_viz1.csv
-│  ├── feature_text.pkl
-│  └── location_distance.pkl
+│   ├── cosine_sim1.pkl
+│   ├── cosine_sim2.pkl
+│   ├── cosine_sim3.pkl
+│   ├── data_viz1.csv
+│   ├── feature_text.pkl
+│   └── location_distance.pkl
 ├── pages
-│  ├── 1_Price_Predictor.py
-│  ├── 2_Analysis App.py
-│  └── 3_Recommend Appartments.py
+│   ├── 1_Price_Predictor.py
+│   ├── 2_Analysis_App.py
+│   └── 3_Recommend_Appartments.py
 ├── .gitattributes
 ├── .gitignore
 ├── df.pkl
@@ -183,8 +184,7 @@ real_estate_virtual
 ├── pipeline.pkl
 ├── README.md
 └── requirements.txt
-
-
+```
 
 ---
 
