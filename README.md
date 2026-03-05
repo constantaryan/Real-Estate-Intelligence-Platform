@@ -2,7 +2,7 @@
 
 > An end-to-end machine learning solution for intelligent real estate price prediction, geospatial analysis, and personalized property recommendations.
 
-[Live Demo](#) • [Documentation](#)
+[Live Demo](https://real-estate-intelligence-platform-h3hdgy6gpabejorzmsyd3l.streamlit.app/) 
 
 ---
 
@@ -27,7 +27,6 @@ This platform transforms real estate decision-making through three core modules 
 - 🎯 **90% prediction accuracy** (R² = 0.90) after extensive feature engineering
 - 🗺️ **Interactive geospatial analysis** with sector-level price mapping
 - 🤝 **Dual recommendation engine** (location + society-based matching)
-- ☁️ **Production-ready** deployment on AWS EC2
 
 
 ---
@@ -83,7 +82,7 @@ Dual-method recommendation engine for personalized property suggestions.
 - **XGBoost**  - Gradient boosting models
 
 ### Deployment & Infrastructure
-- **AWS EC2** - Cloud hosting
+- **Streamlit Server** - Cloud hosting
 
 ---
 
